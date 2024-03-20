@@ -1,0 +1,42 @@
+.to-do-list {
+    width: 320px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+    position: relative;
+}
+  
+.to-do-list:hover {
+    transform: scale(1.08);
+}
+
+.add-button {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+  
+.add-button-text {
+    position: absolute;
+    bottom: 32px;
+    right: 70px;
+}
+
+.task-list-container {  
+    max-height: 250px;
+    max-width: 300px;
+    overflow-y: auto;
+}
+  
+.task-list-container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+  
+.sort-button {
+    position: absolute;
+    bottom: 15px;
+    right: 170px;
+    zoom: 1.4;
+}

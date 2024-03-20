@@ -1,0 +1,11 @@
+.task {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.custom-checkbox {
+    border-radius: 3px;
+    margin-right: 10px;
+    zoom: 1.4;
+}
